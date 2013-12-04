@@ -1,0 +1,41 @@
+      *{
+        font-family:'Courier New';
+      }
+      body{
+        width:320px;
+        margin:0 auto;
+      }
+      h1{
+        text-align:center;
+      }
+      
+      #board{
+        width:200px;
+        height:300px;
+        background:#eee;
+        border:solid 1px #ccc;
+        display:inline-block;
+        overflow:auto;
+        padding:10px;
+        float:left;
+      }
+      #users{
+        width:76px;
+        float:left;
+        height:300px;
+        display:inline-block;
+        background:#999;
+        border:solid 1px #ccc;
+        border-left:none;
+        padding:10px;
+        font-size:12px;
+      }
+      
+      #message{
+        width:280px;
+        margin:10px auto;
+        
+        font-size:24px;
+        padding:5px 10px;
+        display:block;
+      }
